@@ -1,0 +1,383 @@
+
+
+body{ width: 100%; }
+
+
+
+p.alerta{border:1px solid gold;width:660px;margin:10px auto;padding:10px;text-align:center;font-family:Arial;font-size:13px}
+
+
+
+legend {background:#ccc;padding:10px;font-size:13px;font-weight:bold}
+fieldset {border: 1px dotted #ccc;padding:10px}
+form legend, form label {color: #333;}
+
+
+fieldset p {padding: 5px 10px 7px;}
+
+
+form label.error, label.error {color: red;font-style: italic}
+div.error { display: none; }
+
+
+input:focus,textarea:focus { /*border: 1px dotted black;*/ }
+input.error,textarea.error { /*border: 1px dotted red;*/ }
+form .submit { color: gray;width:150px }
+
+#mensaje{width:700px;margin:10px auto;text-align:center}
+
+
+
+
+
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#WindowLoad
+{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:3200;
+    filter:alpha(opacity=65);
+   -moz-opacity:65;
+    opacity:0.65;
+    background:#999;
+}
+
+body {
+
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:14px;
+    line-height:20px;
+}
+.cintillo {
+        padding:2em;
+        font-family: 'Lato', Calibri, Arial, sans-serif;
+        padding-bottom:3em;
+}
+footer {
+    padding: 2em 0 2em 0;
+    width: 100%;
+    text-align:center;
+    bottom: 0;
+    /*background-image:url(../imagens/bg.jpg);*/
+    background-color: #EEEEEE  ;
+    font-size: 11px;
+    margin-top: 10em;
+}
+.table-reparaciones{
+    text-align: center;
+}
+.table-reparaciones tr td {
+    font-size: 11px;
+}
+
+
+/* login */
+
+.container-fluid{
+    margin-top :5em;
+}
+
+
+/* Menu */
+header {
+        margin-top: -11px;
+        width:100%;
+        height:110px;
+        background-color: #09C ;
+        margin-bottom: 10px;
+
+
+}
+
+div.contenedor {
+
+        width:12.5%;
+        height:100%;
+        float:left;
+        cursor:pointer;
+}
+
+div.contenedor1 {
+        width:20%;
+        height:100%;
+        float:left;
+        cursor:pointer;
+}
+
+div.contenedor2 {
+        width:25%;
+        height:100%;
+        float:left;
+        cursor:pointer;
+}
+
+.img-entrada {
+        height: 50%;
+        width: 100%;
+}
+
+img.icon {
+        display:block;
+
+        margin:10px auto;
+}
+
+p.texto {
+        font-size:1.1em;
+        color:black;
+        text-align:center;
+        font-family: 'Lato', Calibri, Arial, sans-serif;
+        opacity: .6;
+        text-decoration:none
+}
+
+
+#menu a {
+        text-decoration:none;
+}
+
+#menu ul {
+        list-style: none;
+}
+
+#icon-menu:hover {
+        display:block;
+        color:black;
+        background-color:#F1F6E7 ;
+        height: 100%
+
+}
+#icon-menu:hover p.texto {
+    color:black;
+}
+
+
+.tbl-usuario  {
+        margin-top: 3em;
+        text-align: center;
+
+}
+
+.tbl-usuario th {
+        text-align: center;
+        background-color: #87c2ed;
+}
+
+.text-center {
+        text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+/* modulo Inventario */
+
+.tabla_productos {
+    border: solid 2px #0099cb !important;
+    margin-top:3em;
+    border-radius: 30px ;
+    width:100%;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+
+}
+
+.tabla_productos a {
+    text-decoration:none;
+}
+
+.td-producto {
+    background-color:#0099cb;
+    border-radius: 30px 30px 0px 0px;
+    height: 2em;
+    font-size: 19px;
+    padding: 2px;
+}
+
+/* Botones*/
+
+.btn-orange {
+    background-color: #f9cb54;
+}
+
+.btn-orange:hover {
+    background-color:#febb03;
+}
+
+.text-alert {
+    color: #9b4037;
+}
+.table1 {
+    border-collapse: collapse;
+    border-spacing:0 ;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.table1 th {
+    background-color: #87c2ed;
+}
+.control-label {
+    font-size: 13px;
+}
+
+.pagination {
+    font-size: 14px;
+}
+
+.margin-top {
+    margin-top: 2em;
+}
+
+/* Inpust */
+
+.padding-right {
+    padding-right: 1em;
+}
+
+.padding-top {
+    padding-top: 1em;
+}
+.margin-top{
+    margin-top: 1em;
+}
+.margin-bottom {
+    margin-bottom: 1em
+}
+.padding-bottom{
+    padding-bottom: 1em;
+}
+
+.nac{
+    width:20%;
+    float: left
+}
+
+.valor{
+    width:80%;
+
+}
+
+.text-res {
+    margin-top: 2em;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+/* factura compra */
+
+#imgF {
+    width: 700px;
+    height: 350px;
+}
+
+.caja1_compra {
+    padding-bottom: 10px;
+    border:solid 1px;
+    border-radius: 10px;
+    width: 100%;
+}
+.table2 {
+    width: 100%;
+}
+
+.title-fact{
+    background-color: #87c2ed;
+
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+    padding: 9px;
+}
+
+.datos_factura {
+    padding-left: 10px;
+}
+
+.table3 {
+    width: 100%;
+}
+
+.table3 th {
+    background-color: #3D64A3;
+    color: white;
+    height: 30px;
+}
+
+/* cursor */
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-default {
+    cursor:default;
+}
+
+.td-entregado {
+    background-color: #a6dd96;
+}
+
+.text-red {
+    color: red;
+    font-size: 12px;
+}
+.text-green{
+    color:green;
+    font-weight: bolder;
+}
+
+.opacity {
+    opacity: .7;
+}
+
+#reparaciones {
+    width: 80%;
+}
+
+#reparaciones td {
+    text-align: right;
+}
+
+#reparaciones td,th {
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.revisado {
+    background-color: #CEF6CE
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+.form-group a {
+    text-decoration: none
+}
+.bg {
+    background-color: red;
+}
+.bg2 {
+    background-color: yellow;
+}
+.bg3 {
+    color :green;
+}
+
